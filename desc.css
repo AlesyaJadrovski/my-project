@@ -3,10 +3,23 @@ body {
 }
 
 .content {
-    background-image: url("/57.jpg");
+    background-image: url("/mak.jpg");
     background-repeat: no-repeat;
-    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    //background-size: 100%;
+    max-width: 100%;
     height: 1100px;
+    overflow: hidden;
+
+}
+
+.squares {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: table;
 }
 
 h1 {
@@ -14,32 +27,79 @@ h1 {
     text-align: center;
 }
 
-.back-img {
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-position: center center;
-    background-size: cover;
-
-}
-
 .about-us {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 30%;
+    height: 45%;
     background-color: pink;
-    opacity: 0.5;
-    margin: 0 17.5% 0 60%;
+    opacity: 0.8;
+    margin: 3% 17.5% 0 50%;
+}
+
+.brand {
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text {
+    font-size: 45px;
+    text-align: center;
 }
 
 .gallery {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 25%;
+    height: 26%;
     background-color: yellow;
-    opacity: 0.5;
-    margin: 12% 10% 10% 40%;
-//margin-top: 0;
+    opacity: 0.8;
+    margin: 16% 10% 10% 25%;
+}
+
+.gallery-text {
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.services {
+    position: absolute;
+    width: 15%;
+    height: 18%;
+    background-color: green;
+    opacity: 0.8;
+    margin: 3.5% 17.5% 0 25%;
+}
+
+.services-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.other1 {
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    background-color: blue;
+    opacity: 0.8;
+    margin: 34.5% 10% 10% 50%;
+}
+
+.other2 {
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    background-color: white;
+    opacity: 0.8;
+    margin: 34% 17.5% 0 35%;
+    border: 0.1px lightgrey;
+}
+
+.other3 {
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    background-color: lightblue;
+    opacity: 0.8;
+    margin: 34% 17.5% 0 10%;
 }
