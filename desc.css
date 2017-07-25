@@ -16,6 +16,7 @@ body {
 }
 
 .squares {
+    max-width: 2000px;
     height: 100%;
     width: 100%;
     position: relative;
@@ -76,7 +77,7 @@ h1 {
     text-align: center;
 }
 
-.other1 {
+.reviews {
     position: absolute;
     width: 20%;
     height: 25%;
@@ -85,7 +86,12 @@ h1 {
     margin: 34.5% 10% 10% 50%;
 }
 
-.other2 {
+.reviews-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.specialists {
     position: absolute;
     width: 15%;
     height: 20%;
@@ -95,11 +101,21 @@ h1 {
     border: 0.1px lightgrey;
 }
 
-.other3 {
+.specialists-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.materials {
     position: absolute;
     width: 15%;
     height: 20%;
     background-color: lightblue;
     opacity: 0.8;
     margin: 34% 17.5% 0 10%;
+}
+
+.materials-text {
+    font-size: 30px;
+    text-align: center;
 }
