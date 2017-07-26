@@ -2,7 +2,7 @@ body {
 
 }
 
-.content {
+.wrapper {
     background-image: url("/mak.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,14 +13,40 @@ body {
     height: 1100px;
     overflow: hidden;
 
+
+    position: relative;
+    z-index: 1;
+
 }
 
-.squares {
+.outer {
+    height: 100%;
+    padding: 0;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.inner {
     max-width: 2000px;
     height: 100%;
     width: 100%;
     position: relative;
     display: table;
+
+
+    padding: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+    white-space: nowrap;
+    text-align: center;
 }
 
 h1 {
@@ -35,6 +61,9 @@ h1 {
     background-color: pink;
     opacity: 0.8;
     margin: 3% 17.5% 0 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .brand {
@@ -55,6 +84,9 @@ h1 {
     background-color: yellow;
     opacity: 0.8;
     margin: 16% 10% 10% 25%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .gallery-text {
@@ -70,6 +102,9 @@ h1 {
     background-color: green;
     opacity: 0.8;
     margin: 3.5% 17.5% 0 25%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .services-text {
@@ -84,6 +119,9 @@ h1 {
     background-color: blue;
     opacity: 0.8;
     margin: 34.5% 10% 10% 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .reviews-text {
@@ -99,6 +137,9 @@ h1 {
     opacity: 0.8;
     margin: 34% 17.5% 0 35%;
     border: 0.1px lightgrey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .specialists-text {
@@ -113,6 +154,9 @@ h1 {
     background-color: lightblue;
     opacity: 0.8;
     margin: 34% 17.5% 0 10%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .materials-text {
