@@ -1,124 +1,3 @@
-body {
-
-}
-
-.content {
-    background-image: url("/mak.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    //background-size: 100%;
-    max-width: 100%;
-    height: 1100px;
-    overflow: hidden;
-
-}
-
-.squares {
-    max-width: 2000px;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    display: table;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
-.about-us {
-    position: absolute;
-    width: 30%;
-    height: 45%;
-    background-color: pink;
-    opacity: 0.8;
-    margin: 3% 17.5% 0 50%;
-}
-
-.brand {
-    margin-top: 10px;
-    font-size: 50px;
-    text-align: center;
-}
-
-.text {
-    font-size: 45px;
-    text-align: center;
-}
-
-.gallery {
-    position: absolute;
-    width: 25%;
-    height: 26%;
-    background-color: yellow;
-    opacity: 0.8;
-    margin: 16% 10% 10% 25%;
-}
-
-.gallery-text {
-    margin-top: 20px;
-    font-size: 50px;
-    text-align: center;
-}
-
-.services {
-    position: absolute;
-    width: 15%;
-    height: 18%;
-    background-color: green;
-    opacity: 0.8;
-    margin: 3.5% 17.5% 0 25%;
-}
-
-.services-text {
-    font-size: 30px;
-    text-align: center;
-}
-
-.reviews {
-    position: absolute;
-    width: 20%;
-    height: 25%;
-    background-color: blue;
-    opacity: 0.8;
-    margin: 34.5% 10% 10% 50%;
-}
-
-.reviews-text {
-    font-size: 30px;
-    text-align: center;
-}
-
-.specialists {
-    position: absolute;
-    width: 15%;
-    height: 20%;
-    background-color: white;
-    opacity: 0.8;
-    margin: 34% 17.5% 0 35%;
-    border: 0.1px lightgrey;
-}
-
-.specialists-text {
-    font-size: 30px;
-    text-align: center;
-}
-
-.materials {
-    position: absolute;
-    width: 15%;
-    height: 20%;
-    background-color: lightblue;
-    opacity: 0.8;
-    margin: 34% 17.5% 0 10%;
-}
-
-.materials-text {
-    font-size: 30px;
-    text-align: center;
-}
 @font-face {
     font-family: OpenSans-Regular;
     src: url(../fonts/OpenSans-Regular.ttf); }
@@ -189,7 +68,7 @@ a {
 }
 
 
-.sabor-club {
+.about-us {
     width: 37.5%;
     padding-top: 37.5%;
     position: relative;
@@ -234,18 +113,18 @@ zoom: 1;
     display: inline-block;*display: inline;*zoom: 1;
 }
 
-.sabor-club-front {
+.about-us-front {
     background: rgba(243, 213, 173, 0.87)!important;
 }
 
-.vkusotteria {
+.services {
     width: 25%;
     padding-top: 25%;
     position: relative;
     left: 50%;
 }
 
-.vkusotteria-front {
+.services-front {
     background: rgba(255, 142, 35, 0.87) !important;
 }
 
@@ -279,7 +158,7 @@ zoom: 1;
     background: #ffd939;
 }
 
-.vine-club {
+.gallery {
     position: absolute;
     left: 25%;
     top: 0;
@@ -288,17 +167,17 @@ zoom: 1;
     padding-top: 22%;
 }
 
-.vine-club-front {
+.gallery-front {
     background: rgba(255, 255, 255, 0.87) !important;
     border: 1px solid rgba(187, 184, 184, 0.64);
 }
 
-.vine-club .flip-back-logo img {
+.gallery .flip-back-logo img {
     width: 60%;
     margin-left: 12.68%;
 }
 
-.cigarette-club {
+.materials {
     position: absolute;
     left: 25%;
     top: 0;
@@ -306,18 +185,18 @@ zoom: 1;
     padding-top: 15.5%;
 }
 
-.cigarette-club-front {
+.materials-front {
     background: rgba(249, 205, 38, 0.9) !important;
 }
-.flip-back.degene-front {background: #8983a4 !important;}
+.flip-back.reviews-front {background: #8983a4 !important;}
 
-.flip-back.cigarette-club-front {
+.flip-back.materials-front {
     background: #ff90a0 !important;
 }
-.flip-back.cigarette-club-front p{
+.flip-back.materials-front p{
     color: white !important;
 }
-.degene {
+.reviews {
     position: absolute;
     top: 0;
     left: 0;
@@ -327,11 +206,11 @@ zoom: 1;
     padding-top: 16.5%;
 }
 
-.degene-front {
+.reviews-front {
     background: rgba(126, 124, 164, 0.9) !important;
 }
 
-.cigarette-sabor {
+.masters {
     position: absolute;
     top: 0;
     left: 0;
@@ -341,7 +220,7 @@ zoom: 1;
     padding-top: 16.5%;
 }
 
-.cigarette-sabor-front {
+.masters-front {
     background: rgba(111, 204, 91, 0.87) !important;
 }
 
@@ -698,16 +577,16 @@ zoom: 1;
     width: 100%;
 }
 
-.vkusotteria .flip-back {
+.services .flip-back {
     background: #ff8e23 !important;
 }
-.vkusotteria .flip-back-logo {
+.services .flip-back-logo {
     height: 13%;
 }
-.vkusotteria-front .flip-back-image img {
+.services-front .flip-back-image img {
     width: 101%;
 }
-.vkusotteria .flip-back-logo img {
+.services .flip-back-logo img {
     width: 100%;
 }
 
@@ -757,9 +636,9 @@ zoom: 1;
     height: 35px;
 }
 
-.sabor-club .box-name-color {
+.about-us .box-name-color {
 }
-.vkusotteria .box-name-color {
+.services .box-name-color {
     border: 1px solid #ff8e23 ;
     background: #ff8e23 ;
     font-family: OpenSans-Regular;
@@ -769,22 +648,22 @@ zoom: 1;
     -moz-border-radius: 0;
     border-radius: 0;
 }
-.cigarette-sabor .box-name-color {
+.masters .box-name-color {
     border: 1px solid #974d28  ;
     background: #974d28  ;
 }
 
-.vine-club .box-name-color {
+.gallery .box-name-color {
     border: 1px solid #feeced;
     background: #feeced;
 }
 
-.cigarette-club .box-name-color {
+.materials .box-name-color {
     border: 1px solid #694f40   ;
     background: #694f40 ;
 }
 
-.degene .box-name-color {
+.reviews .box-name-color {
     border: 1px solid #8983a3;
     background: #8983a3;
     padding-bottom: 3px;
@@ -794,26 +673,26 @@ zoom: 1;
 
 
 
-.degene .box-name-color {
+.reviews .box-name-color {
     font-family: OpenSans-Regular;
 }
 
-.degene .flip-back-logo img {
+.reviews .flip-back-logo img {
     display: block;
     margin-left: 6.16%;
     margin-top: 2.22%;
     height: 127%;
 }
 
-.cigarette-sabor .flip-back {
+.masters .flip-back {
     background: #7fca64 !important;
 }
 
-.cigarette-sabor .flip-back-logo {
+.masters .flip-back-logo {
     text-align: left;
 }
 
-.cigarette-sabor .flip-back-logo img {
+.masters .flip-back-logo img {
     margin-left: 4.31%;
     height: 64%;
 }
@@ -842,20 +721,20 @@ body .wrapper .outer .sabor-outlet .box-name-color:hover {
 }
 
 
-.sabor-club .flip-back {
+.about-us .flip-back {
     background: #f4c8a8 !important;
 }
 
-.sabor-club .flip-back-logo img,
-.cigarette-club .flip-back-logo img,
-.vine-club .flip-back-logo  img{
+.about-us .flip-back-logo img,
+.materials .flip-back-logo img,
+.gallery .flip-back-logo  img{
     display: block;
     width: 100%;
     margin: 0;
 }
 
-.cigarette-club .box-name-color,
-.vine-club .box-name-color {
+.materials .box-name-color,
+.gallery .box-name-color {
     font-family: OpenSans-Regular;
     font-size: 34px;
     font-size: 1.49384886vw;
@@ -1095,7 +974,7 @@ body .wrapper .outer .box-name-color:hover {
 }
 
 
-.cigarette-club .flip-back-logo {
+.materials .flip-back-logo {
     top: -1%;
 }
 
@@ -1143,13 +1022,13 @@ html {
     margin-top: 10px !important;
 }
 
-.flip-back.cigarette-club-front .brand-text {
+.flip-back.materials-front .brand-text {
     height: 100px;
     padding-top: 50px;
 
 }
 
-.flip-back.sabor-club-front .brand-text {
+.flip-back.about-us-front .brand-text {
     height: 17%;
     padding-top: 25px;
     display: flex;
@@ -1158,7 +1037,7 @@ html {
     align-items: center;
 }
 
-.flip-back.vkusotteria-front .brand-text {
+.flip-back.services-front .brand-text {
     height: 125px;
     padding-top: 15px;
     display: flex;
@@ -1167,7 +1046,7 @@ html {
     align-items: center;
 }
 
-.flip-back.vine-club-front .brand-text {
+.flip-back.gallery-front .brand-text {
     height: 125px;
     padding-top: 15px;
     display: flex;
@@ -1176,7 +1055,7 @@ html {
     align-items: center;
 }
 
-.flip-back.degene-front img {
+.flip-back.reviews-front img {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1185,11 +1064,11 @@ html {
     width: auto;
     margin: 0 auto;
 }
-.flip-back.degene-front .add-photo {
+.flip-back.reviews-front .add-photo {
     height: 80%;
     padding-top: 10%;
 }
-.flip-back.degene-front  .brand-text {
+.flip-back.reviews-front  .brand-text {
     height: 25px;
     padding-top: 55px;
     display: flex;
@@ -1197,7 +1076,7 @@ html {
     justify-content: center;
     align-items: center;
 }
-.flip-back.cigarette-sabor-front .brand-text {
+.flip-back.masters-front .brand-text {
     height: 88px;
     padding-top: 25px;
     display: flex;
@@ -1205,7 +1084,7 @@ html {
     justify-content: center;
     align-items: center;
 }
-.degene-front img.brand-logo {
+.reviews-front img.brand-logo {
     width: 101%;
     margin: 0 auto;
 }
