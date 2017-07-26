@@ -1,0 +1,1220 @@
+body {
+
+}
+
+.content {
+    background-image: url("/mak.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    //background-size: 100%;
+    max-width: 100%;
+    height: 1100px;
+    overflow: hidden;
+
+}
+
+.squares {
+    max-width: 2000px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: table;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.about-us {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    background-color: pink;
+    opacity: 0.8;
+    margin: 3% 17.5% 0 50%;
+}
+
+.brand {
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text {
+    font-size: 45px;
+    text-align: center;
+}
+
+.gallery {
+    position: absolute;
+    width: 25%;
+    height: 26%;
+    background-color: yellow;
+    opacity: 0.8;
+    margin: 16% 10% 10% 25%;
+}
+
+.gallery-text {
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.services {
+    position: absolute;
+    width: 15%;
+    height: 18%;
+    background-color: green;
+    opacity: 0.8;
+    margin: 3.5% 17.5% 0 25%;
+}
+
+.services-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.reviews {
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    background-color: blue;
+    opacity: 0.8;
+    margin: 34.5% 10% 10% 50%;
+}
+
+.reviews-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.specialists {
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    background-color: white;
+    opacity: 0.8;
+    margin: 34% 17.5% 0 35%;
+    border: 0.1px lightgrey;
+}
+
+.specialists-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.materials {
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    background-color: lightblue;
+    opacity: 0.8;
+    margin: 34% 17.5% 0 10%;
+}
+
+.materials-text {
+    font-size: 30px;
+    text-align: center;
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf); }
+html {
+    height: 100%;
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    background: #fefae6;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.outer {
+    height: 100%;
+    padding: 0;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.brend-block {
+    display: block;
+    -webkit-transition: left 0.5s ease, top 0.5s ease, bottom 0.5s ease, right 0.5s ease, width 0.5s ease, padding 0.5s ease, margin 0.5s ease;
+    transition: left 0.5s ease, top 0.5s ease, bottom 0.5s ease, right 0.5s ease, width 0.5s ease, padding 0.5s ease , margin 0.5s ease;
+    z-index: 5;
+}
+
+.hover.brend-block {
+    z-index: 10;
+}
+
+.outer:after {
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.inner {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+
+.sabor-club {
+    width: 37.5%;
+    padding-top: 37.5%;
+    position: relative;
+    left: 50%;
+    margin-top: 0%;
+}
+
+.brand-front {
+    background: #9e1c36;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+.brand-front img {
+    width: 80%;
+    max-width: 100%;
+}
+
+.brand-front:after {
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.brand-logo {
+    width: 100%;
+    *
+    display: inline;*
+zoom: 1;
+}
+
+.brand-logo-wrap {
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.sabor-club-front {
+    background: rgba(243, 213, 173, 0.87)!important;
+}
+
+.vkusotteria {
+    width: 25%;
+    padding-top: 25%;
+    position: relative;
+    left: 50%;
+}
+
+.vkusotteria-front {
+    background: rgba(255, 142, 35, 0.87) !important;
+}
+
+.articoli {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 25%;
+    width: 12.5%;
+    padding-top: 12.5%;
+}
+
+.articoli-front {
+    background: #d388ae;
+}
+
+.articoly-logo .logo-block-front {
+    background: #d388ae;
+}
+
+.sabor-outlet {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 37.5%;
+    width: 25%;
+    padding-top: 25%;
+}
+
+.sabor-outlet-front {
+    background: #ffd939;
+}
+
+.vine-club {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    margin-top: 15.5%;
+    width: 24.95%;
+    padding-top: 22%;
+}
+
+.vine-club-front {
+    background: rgba(255, 255, 255, 0.87) !important;
+    border: 1px solid rgba(187, 184, 184, 0.64);
+}
+
+.vine-club .flip-back-logo img {
+    width: 60%;
+    margin-left: 12.68%;
+}
+
+.cigarette-club {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 16.5%;
+    padding-top: 15.5%;
+}
+
+.cigarette-club-front {
+    background: rgba(249, 205, 38, 0.9) !important;
+}
+.flip-back.degene-front {background: #8983a4 !important;}
+
+.flip-back.cigarette-club-front {
+    background: #ff90a0 !important;
+}
+.flip-back.cigarette-club-front p{
+    color: white !important;
+}
+.degene {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 8.5%;
+    margin-top: 37.5%;
+    width: 16.5%;
+    padding-top: 16.5%;
+}
+
+.degene-front {
+    background: rgba(126, 124, 164, 0.9) !important;
+}
+
+.cigarette-sabor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 33.5%;
+    margin-top: 37.5%;
+    width: 16.5%;
+    padding-top: 16.5%;
+}
+
+.cigarette-sabor-front {
+    background: rgba(111, 204, 91, 0.87) !important;
+}
+
+.footer-phones {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 15px;
+    width: 12.5%;
+    text-align: center;
+    font-size: 12px;
+    color: #242425;
+    z-index: 5;
+    margin-left: 83px;
+}
+.footer-phones a {
+    color: #754120;
+}
+
+.sabor-club-menu {
+    width: 100%;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.sabor-club-menu > a,
+.sabor-club-menu > span {
+    color: #fefae6;
+    font-size: 17px;
+    -webkit-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sabor-club-menu > span {
+    margin: 0 13px;
+}
+
+.sabor-di-ciliegi-logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 23.5%;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+    z-index: 5;
+    margin-left: 0;
+}
+
+.sabor-di-ciliegi-logo:hover {
+}
+
+.sabor-di-ciliegi-logo-  {
+    padding: 8.5%;
+}
+
+.sabor-di-ciliegi-logo img {
+    display: block;
+    width: 165px;
+    margin: 0 auto !important;
+    transition: 0.5s linear;
+}
+.sabor-di-ciliegi-logo:hover img {
+    display: block;
+    width: 190px;
+    margin: 0 auto !important;
+    transition: 0.5s linear;
+}
+
+.sabor-di-ciliegi-title {
+    padding-top: 3%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #754120;
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+}
+
+.sabor-di-ciliegi-title div {
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.sabor-di-ciliegi-logo-hover:hover div,
+.sabor-di-ciliegi-logo a:hover div,
+.sabor-di-ciliegi-title div a:hover,
+.sabor-di-ciliegi-title div a:hover div {
+    color: #ea002c;
+    font-size: 16px;
+}
+
+.sabor-di-ciliegi-hover {
+    display: inline-block;*display: inline;*zoom: 1;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    filter: alpha(opacity=100%);
+}
+
+.sabor-di-ciliegi-hover.on {font-size: 16px;color: #6d4227;text-align: left;line-height: 1.6;padding-top: 10px;}
+
+.sabor-di-ciliegi-hover.off {
+    display: block;
+}
+
+.sabor-di-ciliegi-logo:hover .sabor-di-ciliegi-hover.off {
+    display: none;
+}
+
+.sabor-di-ciliegi-logo:hover .sabor-di-ciliegi-hover.on {
+    display: block;
+}
+
+.flip {
+    cursor: pointer;
+    display: block;
+}
+
+.flip-perspective {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+}
+
+.flip-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.7s;
+    -moz-transition: -moz-transform 0.7s;
+    -o-transition: -o-transform 0.7s;
+    transition: transform 0.7s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.flip.hover .flip-block {
+    -webkit-transform: rotateX( 180deg );
+    -moz-transform: rotateX( 180deg );
+    -o-transform: rotateX( 180deg );
+    -ms-transform: rotateX( 180deg );
+    transform: rotateX( 180deg );
+}
+
+.flip-front {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.flip-back {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    -webkit-transform: rotateX( 180deg );
+    -moz-transform: rotateX( 180deg );
+    -o-transform: rotateX( 180deg );
+    -ms-transform: rotateX( 180deg );
+    transform: rotateX( 180deg );
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    font-size: 0;
+    white-space: normal;
+}
+
+.flip-back:after {
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.back-logo-text {
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/overlay.png) repeat;
+    font-size: 0;
+    white-space: nowrap;
+    text-align: center;
+    display: none;
+}
+
+.overlay:after {
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.popup {
+    position: relative;
+    background: #fff;
+    width: 75%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+    -webkit-box-shadow: 0px 0px 15px rgba(79, 56, 0, 0.39);
+    -moz-box-shadow: 0px 0px 15px rgba(79, 56, 0, 0.39);
+    box-shadow: 0px 0px 15px rgba(79, 56, 0, 0.39);
+}
+
+.popup-image {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.popup-image img {
+    display: block;
+    width: 100%;
+}
+
+.popup-content {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.close-popup {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 17px;
+    height: 17px;
+    background: url(../images/close.png) no-repeat;
+    background-size: 100%;
+}
+
+.popup-content- {
+    padding: 5% 7.1%;
+}
+
+.popup-title img {
+    display: block;
+    max-width: 85%;
+}
+
+.popup-desc {
+    padding: 5% 0 6%;
+    border-bottom: 1px solid #7fc9d5;
+    font-size: 14px;
+    color: #000000;
+    white-space: normal;
+    font-family: OpenSans-Regular;
+    text-align: left;
+}
+
+.popup-menu {
+    padding-top: 6%;
+    font-size: 0;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.popup-menu-column {
+    margin: 0 0 0 42px;
+    vertical-align: top;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.popup-menu-column:first-child {
+    margin: 0;
+}
+
+.popup-menu-item {
+    margin: 4px 0 0;
+    color: #000;
+    font-size: 16px;
+    white-space: normal;
+    font-family: OpenSans-Regular;
+}
+
+.popup-menu-item a {
+    color: #000;
+}
+
+.popup-menu-item a:hover {
+    color: #0094ab;
+}
+
+.popup-menu-item:first-child {
+    margin: 0;
+}
+
+
+
+.flip-back-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1
+}
+
+.flip-back-logo {
+    height: 20.1%;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.flip-back-logo:after {
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.flip-back-logo img {
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.flip-back-image img {
+    display: block;
+    width: 100%;
+}
+
+.vkusotteria .flip-back {
+    background: #ff8e23 !important;
+}
+.vkusotteria .flip-back-logo {
+    height: 13%;
+}
+.vkusotteria-front .flip-back-image img {
+    width: 101%;
+}
+.vkusotteria .flip-back-logo img {
+    width: 100%;
+}
+
+.back-name {
+    position: absolute;
+    bottom: 1.16%;
+    height: 7.88%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.box-name-color {
+    height: 100%;
+    min-width: 39.5%;
+    padding: 0 2%;
+    background: rgb(244, 200, 168);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    vertical-align: middle;
+    display: inline-block;*
+display: inline;*
+zoom: 1;
+    font-family: OpenSans-Regular;
+    color: #38272b;
+    -webkit-transition: color 0.3s ease, background  0.3s ease, border  0.3s ease;
+    transition: color 0.3s ease, background  0.3s ease, border  0.3s ease;
+}
+
+.box-name-color:after {
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.box-name-color {
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+    font-size: 36px;
+    font-size: 1.581vw;
+    line-height: 35px;
+    height: 35px;
+}
+
+.sabor-club .box-name-color {
+}
+.vkusotteria .box-name-color {
+    border: 1px solid #ff8e23 ;
+    background: #ff8e23 ;
+    font-family: OpenSans-Regular;
+    font-size: 32px;
+    font-size: 1.4059754vw;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.cigarette-sabor .box-name-color {
+    border: 1px solid #974d28  ;
+    background: #974d28  ;
+}
+
+.vine-club .box-name-color {
+    border: 1px solid #feeced;
+    background: #feeced;
+}
+
+.cigarette-club .box-name-color {
+    border: 1px solid #694f40   ;
+    background: #694f40 ;
+}
+
+.degene .box-name-color {
+    border: 1px solid #8983a3;
+    background: #8983a3;
+    padding-bottom: 3px;
+    color: white;
+}
+
+
+
+
+.degene .box-name-color {
+    font-family: OpenSans-Regular;
+}
+
+.degene .flip-back-logo img {
+    display: block;
+    margin-left: 6.16%;
+    margin-top: 2.22%;
+    height: 127%;
+}
+
+.cigarette-sabor .flip-back {
+    background: #7fca64 !important;
+}
+
+.cigarette-sabor .flip-back-logo {
+    text-align: left;
+}
+
+.cigarette-sabor .flip-back-logo img {
+    margin-left: 4.31%;
+    height: 64%;
+}
+
+
+
+.flip-back .coming-soon {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sabor-outlet .box-name-color {
+    padding: 1% 2%;
+    width: 45%;
+    background: #8a1f41;
+    color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+body .wrapper .outer .sabor-outlet .box-name-color:hover {
+    background: #000;
+    border-color: #000;
+}
+
+
+.sabor-club .flip-back {
+    background: #f4c8a8 !important;
+}
+
+.sabor-club .flip-back-logo img,
+.cigarette-club .flip-back-logo img,
+.vine-club .flip-back-logo  img{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.cigarette-club .box-name-color,
+.vine-club .box-name-color {
+    font-family: OpenSans-Regular;
+    font-size: 34px;
+    font-size: 1.49384886vw;
+}
+
+
+
+
+body .wrapper .outer .box-name-color:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.overlay-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.3s ease 0.5s;
+    transition: opacity 0.3s ease 0.5s;
+
+}
+
+.hover-block .overlay-bg {
+    opacity: 1;
+}
+
+.mobile .inner {
+    min-height: 0;
+}
+
+@media (max-width: 900px) {
+    .inner {
+        min-height: 0;
+    }
+
+    .sabor-club-menu > a, .sabor-club-menu > span {
+        font-size: 2vmin;
+    }
+    .sabor-club-menu > span {
+        margin: 0 5px;
+    }
+    .sabor-di-ciliegi-title {
+        font-size: 3vmin;
+    }
+    .footer-phones {
+        font-size: 2vmin;
+    }
+}
+
+.sabor-sale-label,
+.fresh-sale-label {
+    position: absolute;
+    /*top: 4%;*/
+    top: 0;
+    right: 5%;
+    width: 44%;
+    z-index: 50;
+}
+.sabor-sale-label {
+    width: 44%;
+    right: 0;
+}
+.fresh-sale-label {
+    right: 0;
+}
+.degene-sale-label {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    width: 25%;
+    z-index: 50;
+}
+.degene-sale-label img,
+.sabor-sale-label img,
+.fresh-sale-label img {
+    display: block;
+    width: 100%;
+}
+
+.sabor-club-new {
+    width: 29%;
+    padding: 29% 0 0;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    background: #9c1f38;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    z-index: 15;
+}
+
+.sabor-club-new- {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.sabor-club-new-:after {
+    content: '';
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.sabor-club-new- span {
+    color: #fff;
+    font-size: 1.44vw;
+    vertical-align: middle;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.back-images-list {
+    width: 100%;
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.back-images-list > li {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+    display: inline-block;*display: inline;*zoom: 1;
+}
+
+.back-images-list > li img {
+    display: block;
+    width: 100%;
+}
+
+
+
+.flip-back-image .gallery-list {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: 15;
+}
+
+.itemscope-div {
+    display: none;
+}
+
+
+.degene-30 {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    z-index: 2;
+    width: 24%;
+
+}
+.degene-30 img {
+    display: block;
+    width: 100%;
+}
+
+.magazine-cover {
+    display: block;
+    position: absolute;
+    left: -42px;
+    top: 0;
+    margin: 31% 0 0 2%;
+    width: 12%;
+}
+.magazine-cover .bm-title {
+    font-size: 16px;
+    font-family: OpenSans-Regular;
+    color: #754120;
+    position: absolute;
+    line-height: 20px;
+    height: 20px;
+    top: 50%;
+    width: 400px;
+    left: 50%;
+    margin: -10px 0 0 -200px;
+    text-shadow: 1px 1px #fefae6;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.magazine-cover .bm-image img {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    z-index: 5;
+}
+.magazine-cover:hover .bm-image {
+    opacity: 0.2;
+}
+.magazine-cover:hover .bm-title {
+    opacity: 1;
+}
+.sabor-di-ciliegi-logo a{
+    color: inherit;
+    font-size: 18px;
+}
+
+.bm-image {
+    display: block;
+    position: relative;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+    -webkit-transform: rotate(-6deg) translateZ(0);
+    transform: rotate(-6deg) translateZ(0);
+}
+.bm-image:before {
+    content: '';
+    position: absolute;
+    left: -1.4%;
+    top: -0.3%;
+    padding: 0.3% 3.9% 6.73% 1.4%;
+    width: 100%;
+    height: 100%;
+    /*background: url(../images/cover-shadow.jpg) no-repeat 100% 100%;*/
+    background: url(../images/cover-shadow-ny.png) no-repeat 100% 100%;
+    background-size: 100% auto;
+    margin-top: -1px;
+    margin-left: 1px;
+}
+
+
+.cigarette-club .flip-back-logo {
+    top: -1%;
+}
+
+.shop-links{
+    padding-top: 5px;
+    text-align: left;
+    /*position: absolute;
+    left: -5px;
+    top: 0;
+    margin: 15% 0 0 0;
+    width: 13%;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+    */
+}
+.shop-links a{
+    display: block;
+    font-size: 14px;
+    color: #754120;
+}
+.shop-links a:hover{
+    color: #ea002c;
+}
+
+.magazine-cover {
+    width: 9%;
+    left: -12px;
+}
+html {
+    background-size: contain;
+    background: url(../images/background.png) repeat center top #ffffff;
+    width: 100%;
+}
+
+
+
+.brand-text {
+    font-size: 18px !important;
+    text-transform: uppercase;
+    font-family: OpenSans-Regular;
+    color: #0a0807 !important;
+}
+.flip-back .brand-text{font-size: 28px !important;}
+.flip-back .brand-text p{
+    margin-top: 10px !important;
+}
+
+.flip-back.cigarette-club-front .brand-text {
+    height: 100px;
+    padding-top: 50px;
+
+}
+
+.flip-back.sabor-club-front .brand-text {
+    height: 17%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-back.vkusotteria-front .brand-text {
+    height: 125px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-back.vine-club-front .brand-text {
+    height: 125px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-back.degene-front img {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+}
+.flip-back.degene-front .add-photo {
+    height: 80%;
+    padding-top: 10%;
+}
+.flip-back.degene-front  .brand-text {
+    height: 25px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flip-back.cigarette-sabor-front .brand-text {
+    height: 88px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.degene-front img.brand-logo {
+    width: 101%;
+    margin: 0 auto;
+}
+.href-utm{
+    color: white !important;
+    text-decoration: underline;
+    font-size: 30px !important;
+}
+.href-utm:hover{
+    color: #a0d2fd !important;
+    font-size: 32px !important;
+}
