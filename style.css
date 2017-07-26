@@ -128,36 +128,6 @@ zoom: 1;
     background: rgba(255, 142, 35, 0.87) !important;
 }
 
-.articoli {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 25%;
-    width: 12.5%;
-    padding-top: 12.5%;
-}
-
-.articoli-front {
-    background: #d388ae;
-}
-
-.articoly-logo .logo-block-front {
-    background: #d388ae;
-}
-
-.sabor-outlet {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 37.5%;
-    width: 25%;
-    padding-top: 25%;
-}
-
-.sabor-outlet-front {
-    background: #ffd939;
-}
-
 .gallery {
     position: absolute;
     left: 25%;
@@ -224,22 +194,6 @@ zoom: 1;
     background: rgba(111, 204, 91, 0.87) !important;
 }
 
-.footer-phones {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    padding-bottom: 15px;
-    width: 12.5%;
-    text-align: center;
-    font-size: 12px;
-    color: #242425;
-    z-index: 5;
-    margin-left: 83px;
-}
-.footer-phones a {
-    color: #754120;
-}
-
 .sabor-club-menu {
     width: 100%;
     padding-top: 5%;
@@ -248,17 +202,7 @@ zoom: 1;
     white-space: nowrap;
 }
 
-.sabor-club-menu > a,
-.sabor-club-menu > span {
-    color: #fefae6;
-    font-size: 17px;
-    -webkit-transition: font-size 0.3s ease;
-    transition: font-size 0.3s ease;
-}
 
-.sabor-club-menu > span {
-    margin: 0 13px;
-}
 
 .sabor-di-ciliegi-logo {
     position: fixed;
@@ -271,73 +215,7 @@ zoom: 1;
     margin-left: 0;
 }
 
-.sabor-di-ciliegi-logo:hover {
-}
 
-.sabor-di-ciliegi-logo-  {
-    padding: 8.5%;
-}
-
-.sabor-di-ciliegi-logo img {
-    display: block;
-    width: 165px;
-    margin: 0 auto !important;
-    transition: 0.5s linear;
-}
-.sabor-di-ciliegi-logo:hover img {
-    display: block;
-    width: 190px;
-    margin: 0 auto !important;
-    transition: 0.5s linear;
-}
-
-.sabor-di-ciliegi-title {
-    padding-top: 3%;
-    font-size: 14px;
-    line-height: 17px;
-    color: #754120;
-    text-align: left;
-    width: 200px;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.85);
-    padding: 15px;
-}
-
-.sabor-di-ciliegi-title div {
-    position: relative;
-    width: 200px;
-    text-align: center;
-}
-
-.sabor-di-ciliegi-logo-hover:hover div,
-.sabor-di-ciliegi-logo a:hover div,
-.sabor-di-ciliegi-title div a:hover,
-.sabor-di-ciliegi-title div a:hover div {
-    color: #ea002c;
-    font-size: 16px;
-}
-
-.sabor-di-ciliegi-hover {
-    display: inline-block;*display: inline;*zoom: 1;
-    -webkit-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease;
-    opacity: 1;
-    filter: alpha(opacity=100%);
-}
-
-.sabor-di-ciliegi-hover.on {font-size: 16px;color: #6d4227;text-align: left;line-height: 1.6;padding-top: 10px;}
-
-.sabor-di-ciliegi-hover.off {
-    display: block;
-}
-
-.sabor-di-ciliegi-logo:hover .sabor-di-ciliegi-hover.off {
-    display: none;
-}
-
-.sabor-di-ciliegi-logo:hover .sabor-di-ciliegi-hover.on {
-    display: block;
-}
 
 .flip {
     cursor: pointer;
@@ -418,14 +296,6 @@ zoom: 1;
     display: inline-block;*display: inline;*zoom: 1;
 }
 
-.back-logo-text {
-    font-size: 14px;
-    line-height: 19px;
-    color: #fff;
-    vertical-align: middle;
-    display: inline-block;*display: inline;*zoom: 1;
-}
-
 .overlay {
     position: fixed;
     z-index: 20;
@@ -433,11 +303,11 @@ zoom: 1;
     top: 0;
     width: 100%;
     height: 100%;
-    background: url(../images/overlay.png) repeat;
+    background: url(/mak.jpg) repeat;
     font-size: 0;
     white-space: nowrap;
     text-align: center;
-    display: none;
+    //display: none;
 }
 
 .overlay:after {
@@ -447,143 +317,13 @@ zoom: 1;
     display: inline-block;*display: inline;*zoom: 1;
 }
 
-.popup {
-    position: relative;
-    background: #fff;
-    width: 75%;
-    vertical-align: middle;
-    display: inline-block;*display: inline;*zoom: 1;
-    -webkit-box-shadow: 0px 0px 15px rgba(79, 56, 0, 0.39);
-    -moz-box-shadow: 0px 0px 15px rgba(79, 56, 0, 0.39);
-    box-shadow: 0px 0px 15px rgba(79, 56, 0, 0.39);
-}
-
-.popup-image {
-    width: 50%;
-    vertical-align: top;
-    display: inline-block;*display: inline;*zoom: 1;
-}
-
-.popup-image img {
-    display: block;
-    width: 100%;
-}
-
-.popup-content {
-    width: 50%;
-    vertical-align: top;
-    display: inline-block;*display: inline;*zoom: 1;
-}
-
-.close-popup {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    width: 17px;
-    height: 17px;
-    background: url(../images/close.png) no-repeat;
-    background-size: 100%;
-}
-
-.popup-content- {
-    padding: 5% 7.1%;
-}
-
-.popup-title img {
-    display: block;
-    max-width: 85%;
-}
-
-.popup-desc {
-    padding: 5% 0 6%;
-    border-bottom: 1px solid #7fc9d5;
-    font-size: 14px;
-    color: #000000;
-    white-space: normal;
-    font-family: OpenSans-Regular;
-    text-align: left;
-}
-
-.popup-menu {
-    padding-top: 6%;
-    font-size: 0;
-    white-space: nowrap;
-    text-align: left;
-}
-
-.popup-menu-column {
-    margin: 0 0 0 42px;
-    vertical-align: top;
-    display: inline-block;*display: inline;*zoom: 1;
-}
-
-.popup-menu-column:first-child {
-    margin: 0;
-}
-
-.popup-menu-item {
-    margin: 4px 0 0;
-    color: #000;
-    font-size: 16px;
-    white-space: normal;
-    font-family: OpenSans-Regular;
-}
-
-.popup-menu-item a {
-    color: #000;
-}
-
-.popup-menu-item a:hover {
-    color: #0094ab;
-}
-
-.popup-menu-item:first-child {
-    margin: 0;
-}
-
-
-
-.flip-back-image {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1
-}
-
-.flip-back-logo {
-    height: 20.1%;
-    font-size: 0;
-    text-align: center;
-    position: relative;
-    z-index: 5;
-}
-
-.flip-back-logo:after {
-    content: '';
-    height: 100%;
-    vertical-align: middle;
-    display: inline-block;*display: inline;*zoom: 1;
-}
-
-.flip-back-logo img {
-    vertical-align: middle;
-    display: inline-block;*display: inline;*zoom: 1;
-}
-
-.flip-back-image img {
-    display: block;
-    width: 100%;
-}
-
 .services .flip-back {
     background: #ff8e23 !important;
 }
-.services .flip-back-logo {
+.services {
     height: 13%;
 }
-.services-front .flip-back-image img {
+.services-front {
     width: 101%;
 }
 .services .flip-back-logo img {
@@ -602,42 +342,9 @@ zoom: 1;
     z-index: 5;
 }
 
-.box-name-color {
-    height: 100%;
-    min-width: 39.5%;
-    padding: 0 2%;
-    background: rgb(244, 200, 168);
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    vertical-align: middle;
-    display: inline-block;*
-display: inline;*
-zoom: 1;
-    font-family: OpenSans-Regular;
-    color: #38272b;
-    -webkit-transition: color 0.3s ease, background  0.3s ease, border  0.3s ease;
-    transition: color 0.3s ease, background  0.3s ease, border  0.3s ease;
-}
 
-.box-name-color:after {
-    content: '';
-    height: 100%;
-    vertical-align: middle;
-    display: inline-block;*display: inline;*zoom: 1;
-}
 
-.box-name-color {
-    vertical-align: middle;
-    display: inline-block;*display: inline;*zoom: 1;
-    font-size: 36px;
-    font-size: 1.581vw;
-    line-height: 35px;
-    height: 35px;
-}
 
-.about-us .box-name-color {
-}
 .services .box-name-color {
     border: 1px solid #ff8e23 ;
     background: #ff8e23 ;
@@ -705,7 +412,7 @@ zoom: 1;
     height: 100%;
 }
 
-.sabor-outlet .box-name-color {
+.box-name-color {
     padding: 1% 2%;
     width: 45%;
     background: #8a1f41;
@@ -774,37 +481,8 @@ body .wrapper .outer .box-name-color:hover {
     .inner {
         min-height: 0;
     }
-
-    .sabor-club-menu > a, .sabor-club-menu > span {
-        font-size: 2vmin;
-    }
-    .sabor-club-menu > span {
-        margin: 0 5px;
-    }
-    .sabor-di-ciliegi-title {
-        font-size: 3vmin;
-    }
-    .footer-phones {
-        font-size: 2vmin;
-    }
 }
 
-.sabor-sale-label,
-.fresh-sale-label {
-    position: absolute;
-    /*top: 4%;*/
-    top: 0;
-    right: 5%;
-    width: 44%;
-    z-index: 50;
-}
-.sabor-sale-label {
-    width: 44%;
-    right: 0;
-}
-.fresh-sale-label {
-    right: 0;
-}
 .degene-sale-label {
     position: absolute;
     top: 4%;
@@ -1087,13 +765,4 @@ html {
 .reviews-front img.brand-logo {
     width: 101%;
     margin: 0 auto;
-}
-.href-utm{
-    color: white !important;
-    text-decoration: underline;
-    font-size: 30px !important;
-}
-.href-utm:hover{
-    color: #a0d2fd !important;
-    font-size: 32px !important;
 }
