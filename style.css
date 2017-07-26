@@ -687,7 +687,9 @@ html {
     width: 100%;
 }
 
-
+.online {
+    font-size: 20px !important;
+}
 
 .brand-text {
     font-size: 18px !important;
