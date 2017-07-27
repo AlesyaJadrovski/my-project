@@ -2,13 +2,19 @@ $('.flip').mouseenter(function(){
     var block = $(this);
     $('.flip.hover').removeClass('hover');
     block.addClass('hover');
+    $('.gallery').removeClass('hover');
 });
 
 $('.flip').mouseleave(function(){
     $(this).removeClass('hover');
 });
 
+var inner = $('.inner');
+var galleryFront = inner.find('.gallery-front');
 
+galleryFront.on('click', function () {
+    $('.flip-perspective').addClass('.big-gallery-front')
+});
 
 
 

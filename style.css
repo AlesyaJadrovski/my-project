@@ -645,7 +645,7 @@ body .wrapper .outer .box-name-color:hover {
     width: 100%;
     height: 100%;
     /*background: url(../images/cover-shadow.jpg) no-repeat 100% 100%;*/
-    background: url(../images/cover-shadow-ny.png) no-repeat 100% 100%;
+    background: url(/mak.jpg) no-repeat 100% 100%;
     background-size: 100% auto;
     margin-top: -1px;
     margin-left: 1px;
@@ -767,4 +767,14 @@ html {
 .reviews-front img.brand-logo {
     width: 101%;
     margin: 0 auto;
+}
+
+.big-gallery-front {
+    height: 500px;
+    width: 200%;
+    padding-top: 15px;
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
